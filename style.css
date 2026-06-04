@@ -105,12 +105,82 @@ main{
     position: relative;
 }
 .right-top{
-    background-color: blueviolet;
+    background-color: #FBF7F7;
     grid-area: right-top;
     border-radius: 20px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.right-top-1{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.img-1{
+    padding: 25px 10px;
+}
+.content-1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.img-1 img{
+   height: 50px;
+   width: 50px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 0.5px solid black;
+   margin-left: -10px;
+}
+.right-top-2{
+     height: 50%;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top-1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.top-1 h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+.top-1 h1{
+    font-size: 70px;
+}
+.bottom-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-2 h4{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+}
+.bottom-2-icon{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: 30px;
+   background-color:   #e3b9be5b;
+   height: 80px;
+   width: 80px;
+}
+.bottom-2-icon i{
+    font-size: 40px;
 }
 .right-bottom{
-    background-color: blue;
+    background-color:#FBF7F7;
     grid-area: right-bottom;
     border-radius: 20px;
 }
@@ -147,11 +217,12 @@ main{
     font-size: 15px;
 }
 .b-c2-div1 button{
-    width: 150px;
+    width: 120px;
     background-color: black;
-    color: white;
+    color: rgba(255, 255, 255, 0.842);
     border-radius: 20px;
     padding: 3px;
+
 }
 .circle{
     height: 100%;
